@@ -1,0 +1,137 @@
+body {
+	font-family: arial, helvetica, "sans serif";
+	font-size: small;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#main {
+	text-align: center;
+	padding-top: 192px;
+}
+
+#main h1 {
+	display: none;
+}
+
+#main img {
+	height: 95px;
+	width: 269px;
+}
+
+#main input {
+	margin-top: 20px;
+	height: 26px;
+	width: 558px;
+	padding-left: 10px;
+	font-size: large;
+	border: solid 1px #ddd;
+}
+
+#main input:focus {
+	outline: none;
+	border: solid 1px #4387fd;
+}
+
+#main ul {
+	margin: 25px;
+}
+
+#main li {
+	margin: 8px;
+	background-color: #eee;
+	border: solid 1px #ddd;
+	border-radius: 3px;
+	padding: 7px;
+	font-size: 11px;
+	font-weight: 700;
+	color: #444;
+}
+
+#main li:hover {
+	border: solid 1px #bbb;
+	border-bottom: solid 2px #bbb;
+	cursor: default;
+}
+
+#services {
+	position: absolute;
+	top: 0px;
+	height: 60px;
+	width: 100%;
+	display: block;
+	clear: both;
+}
+
+#services ul {
+	margin: 25px;
+	float: right;
+}
+
+#services li {
+	padding: 7px;
+	border-radius: 2px;
+}
+
+#services #signin a {
+	margin: 15px;
+	padding: 7px 12px;
+	color: #fff;
+	font-weight: 700;
+	background-color: #4387fd;
+}
+
+#services #signin a:hover {
+	text-decoration: none;
+	cursor: default;
+}
+
+#footer {
+	display: block;
+	height: 41px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+
+	background-color: #eee;
+	border: solid 1px #ddd;
+	color: #666;
+
+	clear: both;
+}
+
+#footer a {
+	color: #666;
+}
+
+#footer em {
+	color: #b00;
+}
+
+#footer ul {
+	margin: 15px;
+}
+
+#footer li {
+	padding: 15px;
+}
+
+#footer #adv {
+	float: left;
+}
+
+#footer #legal {
+	float: right;
+}
+
